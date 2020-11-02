@@ -1,0 +1,42 @@
+.TodoList {
+	margin: 4rem auto;
+	padding: 2rem 3rem 3rem;
+	max-width: 500px;
+	background: #ffab00;
+	color: #fff;
+	box-shadow: -20px -20px 0px 0px rgba(100, 100, 100, .1);
+}
+
+.TodoList h1 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 2.6rem;
+	letter-spacing: 0.05em;
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+	text-transform: uppercase;
+	letter-spacing: 0.7rem;
+}
+
+.TodoList h1 span {
+	display: block;
+	font-size: 0.8rem;
+	margin-bottom: 0.7rem;
+	margin-left: 3px;
+	margin-top: 0.4rem;
+	text-transform: capitalize;
+	letter-spacing: 0.1rem;
+}
+
+.TodoList li {
+	display: flex;
+	margin: 0 -3rem 4px;
+	padding: 1.1rem 3rem;
+	justify-content: space-between;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.TodoList p {
+	text-align: center;
+	font-style: italic;
+}

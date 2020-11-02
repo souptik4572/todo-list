@@ -1,0 +1,24 @@
+.Todo i {
+	cursor: pointer;
+	margin-right: 1.5rem;
+}
+
+.Todo-actions {
+	flex-shrink: 0;
+	padding-left: 0.5em;
+}
+
+.Todo-task {
+    text-transform: capitalize;
+}
+
+.done {
+	opacity: 0.6;
+	text-decoration: line-through;
+}
+
+@keyframes strikeitem {
+	to {
+		width: calc(100% + 1rem);
+	}
+}
