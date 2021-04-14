@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './TodoList.css';
 
-import NewTodoForm from './NewTodoForm';
-import Todo from './Todo';
+import NewTodoForm from '../NewTodoForm/NewTodoForm';
+import Todo from '../Todo/Todo';
 
 class TodoList extends Component {
 	constructor(props) {
